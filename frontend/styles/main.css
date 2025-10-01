@@ -1,0 +1,5 @@
+.navbar {
+    display: flex;       /*Ativa Flexbox no contêiner*/
+    justify-content: space-between;     /*Espaça logo e e menu nos extremos (eixo principal)*/
+    align-items: center;    /*Alinha verticalmente (eixo cruzado */
+}
