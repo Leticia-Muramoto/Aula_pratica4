@@ -9,116 +9,31 @@
 <body>
     <header class="navbar">
         <div class="logo">Tempo</div>
-        <nav class="menu">
-            <a href="index.html">Home</a>
-            <a href="#">Previsão</a>
-            <a href="#">Histórico</a>
-            <a href="#">Sobre</a>
-        </nav>
     </header>
-    <div class="dashboard">
-        <aside class="sidebar">
-            <h2>Locais</h2>
-            <ul>
-                <li>Campinas</li>
-                <li>São Paulo</li>
-                <li>Rio de Janeiro</li>
-                <li>Indaiatuba</li>
+    <main class="dashboard">
+        <section class="content" style="align-items:center; justify-content:center; min-height:60vh;">
+            <h2 style="margin-bottom:32px; color:var(--color-primary);">Escolha a cidade</h2>
+            <ul style="list-style:none; display:flex; flex-direction:column; gap:24px; align-items:center; padding:0;">
+                <li>
+                    <a href="pages/Campinas.html" class="card" style="min-width:200px; display:block; text-decoration:none; color:inherit;">
+                        <h3 style="margin:0;">Campinas</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="card" style="min-width:200px; display:block; text-decoration:none; color:inherit;">
+                        <h3 style="margin:0;">São Paulo</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="card" style="min-width:200px; display:block; text-decoration:none; color:inherit;">
+                        <h3 style="margin:0;">Indaiatuba</h3>
+                    </a>
+                </li>
             </ul>
-        </aside>
-        <section class="content">
-            <div class="kpis">
-                <div class="kpi-card">
-                    <h3>Temperatura</h3>
-                    <p>23°C</p>
-                </div>
-                <div class="kpi-card">
-                    <h3>Umidade</h3>
-                    <p>78%</p>
-                </div>
-                <div class="kpi-card">
-                    <h3>Vento</h3>
-                    <p>12 km/h</p>
-                </div>
-            </div>
-            <div class="cards">
-                <div class="card">
-                    <h4>Hoje</h4>
-                    <p>Sol com nuvens</p>
-                </div>
-                <div class="card">
-                    <h4>Amanhã</h4>
-                    <p>Chuva leve</p>
-                </div>
-                <div class="card">
-                    <h4>Quarta</h4>
-                    <p>Tempo nublado</p>
-                </div>
-                <div class="card">
-                    <h4>Quinta</h4>
-                    <p>Sol forte</p>
-                </div>
-                <div class="card">
-                    <h4>Sexta</h4>
-                    <p>Sol com nuvens</p>
-                </div>
-                <div class="card">
-                    <h4>Sabado</h4>
-                    <p>Chuva leve</p>
-                </div>
-                <div class="card">
-                    <h4>Domingo</h4>
-                    <p>Sol forte</p>
-                </div>
-            </div>
-            <div class="tabela-wrap">
-                <a class="scroll-hint" href= "pages/previsao.html">Saiba mais</a>
-                <table class="tabela">
-                    <thead>
-                        <tr>
-                            <th>Dia</th>
-                            <th>Temp. Máx</th>
-                            <th>Temp. Mín</th>
-                            <th>Umidade</th>
-                            <th>Vento</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Segunda</td>
-                            <td>25°C</td>
-                            <td>18°C</td>
-                            <td>80%</td>
-                            <td>10 km/h</td>
-                        </tr>
-                        <tr>
-                            <td>Terça</td>
-                            <td>23°C</td>
-                            <td>17°C</td>
-                            <td>78%</td>
-                            <td>12 km/h</td>
-                        </tr>
-                        <tr>
-                            <td>Quarta</td>
-                            <td>22°C</td>
-                            <td>16°C</td>
-                            <td>75%</td>
-                            <td>8 km/h</td>
-                        </tr>
-                        <tr>
-                            <td>Quinta</td>
-                            <td>27°C</td>
-                            <td>19°C</td>
-                            <td>70%</td>
-                            <td>15 km/h</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
         </section>
         <footer class="footer">
             <p>Dashboard Climático &copy; 2025</p>
         </footer>
-    </div>
+    </main>
 </body>
 </html>
