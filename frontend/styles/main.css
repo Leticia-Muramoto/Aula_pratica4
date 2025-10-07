@@ -1,3 +1,16 @@
+/* ======= TOKENS DE COR E VARIÁVEIS ======= */
+:root {
+    --color-bg: #f5f7fa;
+    --color-primary: #1976d2;
+    --color-secondary: #1565c0;
+    --color-card: #ffffff;
+    --color-text: #222;
+    --color-sidebar: #e3eaf2;
+    --color-footer: #dde3ea;
+    --color-focus: #ff9800;
+    --radius: 8px;
+    --shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
 /* ======= RESET ======= */
 * {
     box-sizing: border-box;
@@ -6,7 +19,7 @@
 }
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background: rgb(196, 186, 186);
+    background: var(--color-bg);
     color: var(--color-text);
     line-height: 1.5;
 }
@@ -16,8 +29,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    background: rgb(196, 186, 186);
-    color: #000000;
+    background: var(--color-primary);
+    color: #fff;
     padding: 16px;
 }
 .logo {
@@ -31,7 +44,7 @@ body {
     gap: 8px;
 }
 .menu a {
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     padding: 6px 12px;
     border-radius: var(--radius);
